@@ -10,47 +10,35 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Playground Flutter'),
       ),
-      body: Align(
-        alignment: Alignment.center,
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
+      body: Padding(
+        padding: const EdgeInsets.all(10.0),
+        child: ListView(
           children: [
-            InkWell(
-              onTap: () => Navigator.of(context).push(
-                MaterialPageRoute(builder: (context) => const MoneyControl()),
-              ),
-              child: Container(
-                alignment: Alignment.center,
-                width: 130,
-                height: 130,
-                decoration: BoxDecoration(
-                  color: Colors.blue,
-                  borderRadius: BorderRadius.circular(65),
-                ),
-                child: const Text(
+            Card(
+              color: const Color(0xFF5e5bdc),
+              elevation: 5,
+              child: ListTile(
+                title: const Text(
                   'Money Control',
                   style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 16,
-                    fontWeight: FontWeight.bold,
-                  ),
+                      color: Colors.white, fontWeight: FontWeight.bold),
+                ),
+                onTap: () => Navigator.of(context).push(
+                  MaterialPageRoute(builder: (context) => const MoneyControl()),
                 ),
               ),
             ),
-            Container(
-              alignment: Alignment.center,
-              width: 130,
-              height: 130,
-              decoration: BoxDecoration(
-                color: Colors.pink[400],
-                borderRadius: BorderRadius.circular(65),
-              ),
-              child: const Text(
-                'Tinder',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 16,
-                  fontWeight: FontWeight.bold,
+            Card(
+              color: const Color(0xFF5e5bdc),
+              elevation: 5,
+              child: ListTile(
+                title: const Text(
+                  'Tinder',
+                  style: TextStyle(
+                      color: Colors.white, fontWeight: FontWeight.bold),
+                ),
+                onTap: () => Navigator.of(context).push(
+                  MaterialPageRoute(builder: (context) => const MoneyControl()),
                 ),
               ),
             ),
