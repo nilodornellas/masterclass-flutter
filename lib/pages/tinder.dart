@@ -8,10 +8,9 @@ class Tinder extends StatelessWidget {
     begin: Alignment.topRight,
     end: Alignment.bottomLeft,
     colors: [
-      Color.fromARGB(240, 248, 104, 75),
-      Color.fromARGB(255, 241, 95, 119),
-      Color.fromARGB(253, 241, 95, 119),
-      Color.fromARGB(255, 246, 70, 100),
+      Color(0XFFEC7163),
+      Color(0XFFEB5E6B),
+      Color(0XFFE94B76),
     ],
   );
 
