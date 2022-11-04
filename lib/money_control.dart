@@ -8,10 +8,10 @@ class MoneyControl extends StatelessWidget {
   Widget build(BuildContext context) {
     return Material(
       color: Colors.black,
-      child: Align(
-        alignment: Alignment.center,
+      child: Container(
+        padding: const EdgeInsets.symmetric(vertical: 15, horizontal: 8),
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.end,
           children: [
             logoMoneyControl(),
             const SizedBox(height: 40),
@@ -59,7 +59,7 @@ class MoneyControl extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Image.asset(
-            'assets/icon_google.png',
+            'assets/images/icon_google.png',
             width: 16,
             height: 16,
           ),
