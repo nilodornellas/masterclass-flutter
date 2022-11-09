@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_playground/pages/facebook_page.dart';
 import 'package:flutter_playground/pages/home_page.dart';
 import 'package:flutter_playground/pages/login.dart';
 import 'package:flutter_playground/pages/money_control.dart';
@@ -24,6 +25,7 @@ class MyApp extends StatelessWidget {
         '/moneyControl': (context) => const MoneyControl(),
         '/tinder': (context) => const Tinder(),
         '/login': (context) => const Login(),
+        '/facebook': (context) => const FacebookPage(),
       },
     );
   }

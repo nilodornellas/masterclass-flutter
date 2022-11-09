@@ -53,6 +53,12 @@ class HomePage extends StatelessWidget {
               context,
               gradient: gradientLogin,
             ),
+            _cardPage(
+              'Facebook',
+              '/facebook',
+              context,
+              color: Colors.blue[800],
+            ),
           ],
         ),
       ),
