@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_playground/pages/facebook_page.dart';
-import 'package:flutter_playground/pages/home_page.dart';
-import 'package:flutter_playground/pages/login.dart';
-import 'package:flutter_playground/pages/money_control.dart';
-import 'package:flutter_playground/pages/tinder.dart';
+import 'package:flutter_playground/pages/week_2/facebook_page.dart';
+import 'package:flutter_playground/pages/week_1/home_page.dart';
+import 'package:flutter_playground/pages/week_1/login.dart';
+import 'package:flutter_playground/pages/week_1/money_control.dart';
+import 'package:flutter_playground/pages/week_1/tinder.dart';
+import 'package:flutter_playground/pages/week_3/animation.dart';
 
 void main() {
   runApp(const MyApp());
@@ -26,6 +27,7 @@ class MyApp extends StatelessWidget {
         '/tinder': (context) => const Tinder(),
         '/login': (context) => const Login(),
         '/facebook': (context) => const FacebookPage(),
+        '/animation': (context) => const AnimationPage(),
       },
     );
   }

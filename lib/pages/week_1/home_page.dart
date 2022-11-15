@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_playground/pages/money_control.dart';
-import 'package:flutter_playground/pages/tinder.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -58,6 +56,12 @@ class HomePage extends StatelessWidget {
               '/facebook',
               context,
               color: Colors.blue[800],
+            ),
+            _cardPage(
+              'Animation',
+              '/animation',
+              context,
+              color: Colors.green[800],
             ),
           ],
         ),
