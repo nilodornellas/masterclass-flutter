@@ -63,6 +63,12 @@ class HomePage extends StatelessWidget {
               context,
               color: Colors.green[800],
             ),
+            _cardPage(
+              'Animation Tile',
+              '/animationTile',
+              context,
+              color: Colors.green,
+            ),
           ],
         ),
       ),
