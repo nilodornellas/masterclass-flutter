@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_playground/animation/animation_tile/custom_tile.dart';
+import 'package:flutter_playground/animations/animation_tile/custom_tile.dart';
 
 class ListTileExpanded extends StatelessWidget {
   final CustomTile tile;

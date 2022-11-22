@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_playground/animation/animation_tile/custom_tile.dart';
-import 'package:flutter_playground/animation/animation_tile/list_tile_expanded.dart';
+import 'package:flutter_playground/animations/animation_tile/custom_tile.dart';
+import 'package:flutter_playground/animations/animation_tile/list_tile_expanded.dart';
 
 class AnimationTile extends StatefulWidget {
   const AnimationTile({Key? key}) : super(key: key);
